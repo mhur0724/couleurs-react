@@ -1,0 +1,18 @@
+.graphics {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.graphic {
+  width: 50%;
+}
+.graphic img {
+  display: block;
+  height: 100%;
+}
+
+@media (min-width: 750px) {
+  .graphic {
+    width: 25%;
+  }
+}

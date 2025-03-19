@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  background-color: #ffab72;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.container p {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+.container button {
+  position: absolute;
+  right: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.container button:hover {
+  color: red;
+}

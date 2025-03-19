@@ -1,0 +1,71 @@
+.container {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+}
+
+.wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  color: white;
+  text-align: center;
+}
+
+.overlay button {
+  cursor: pointer;
+  border: none;
+  padding: 1rem;
+  color: white;
+  font-weight: 600;
+  transition: 0.25s;
+  font-size: 1.25rem;
+}
+
+.overlay button:hover {
+  transform: scale(1.1);
+  transition: 0.25s;
+}
+
+.overlay > * {
+  margin-top: 2rem;
+}
+
+.overlay h1 {
+  font-size: clamp(1rem, 4rem, 2.75rem);
+  max-width: 75%;
+}
+
+.overlay p {
+  font-size: clamp(0.5rem, 2rem, 1.5rem);
+
+  max-width: 75%;
+}

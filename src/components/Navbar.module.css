@@ -1,0 +1,50 @@
+.container {
+  height: 4rem;
+  background-color: #f8f0e3;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.wrapper > * {
+  flex: 1;
+}
+.left {
+  display: none;
+}
+
+.center {
+  flex-shrink: 0;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.right {
+  display: none;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menu-item {
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 750px) {
+  .left,
+  .right {
+    display: flex;
+  }
+}

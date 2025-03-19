@@ -1,0 +1,14 @@
+.by-you {
+  margin: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    flex-wrap: nowrap;
+  }
+}

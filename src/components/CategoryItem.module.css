@@ -1,0 +1,58 @@
+.container {
+  flex: 1;
+  height: 70vh;
+  position: relative;
+  transition: 0.5s ease;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+
+.info:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+.container:hover {
+  flex: 2;
+  transition: 0.5s ease;
+}
+
+.title {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.button {
+  border: none;
+  padding: 10px;
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button:hover {
+  transform: scale(1.125);
+}
+
+/* @media (min-width: 1000px) {
+  .container:hover {
+    flex: 1;
+  }
+} */

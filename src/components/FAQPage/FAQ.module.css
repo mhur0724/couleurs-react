@@ -1,0 +1,35 @@
+.faq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 50px);
+}
+
+.header h1 {
+  font-size: 4rem;
+}
+.questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 75%;
+}
+
+.questions li {
+  list-style-type: none;
+  margin-top: 2rem;
+}
+
+.questions li p {
+  margin-top: 1rem;
+}
+
+.question {
+  font-size: clamp(1.5rem, 2rem, 2.5rem);
+}
+
+.answer {
+  font-size: clamp(1rem, 1.5rem, 2rem);
+}

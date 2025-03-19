@@ -1,0 +1,21 @@
+.lookbook {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.lookbook-item {
+  width: 50%;
+  padding: 1rem;
+}
+.lookbook-item img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 750px) {
+  .lookbook-item {
+    width: 25%;
+  }
+}
