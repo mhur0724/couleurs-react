@@ -9,7 +9,6 @@ import LookBook from "./LookBookSection/LookBook";
 import Store from "./StorePage/components/Store";
 import FAQ from "./components/FAQPage/FAQ";
 import Footer from "./components/Footer";
-import Product from "./ProductPage/Product";
 import { bestSellers } from "./components/data";
 import { storeItems } from "./StorePage/components/StoreData";
 import StoreItemPage from "./StorePage/components/StoreItemPage";
@@ -52,13 +51,16 @@ function App() {
                   key={product.id}
                   path={product.nav}
                   element={
-                    <Product
+                    <StoreItemPage
                       key={product.id}
                       img={product.img}
+                      id={product.id}
                       product={product.product}
                       price={product.price}
                       sizing={product.sizing}
                       care={product.care}
+                      setCartCount={setCartCount}
+                      cartCount={cartCount}
                     />
                   }
                 />

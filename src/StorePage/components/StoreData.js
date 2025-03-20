@@ -29,7 +29,7 @@ export const storeItems = [
   {
     id: 1,
     img: otherHoodieBlack,
-    product: "Other Hoodie (Black)",
+    product: "Hoodie (Black)",
     price: "60.00",
     modelImg: "",
     nav: "/store/otherhoodie-black",
@@ -39,7 +39,7 @@ export const storeItems = [
   {
     id: 2,
     img: otherHoodieGreen,
-    product: "Other Hoodie (Green)",
+    product: "Hoodie (Green)",
     price: "60.00",
     modelImg: "",
     nav: "/store/otherhoodie-green",
@@ -49,7 +49,7 @@ export const storeItems = [
   {
     id: 3,
     img: otherHoodieOrange,
-    product: "Other Hoodie (Orange)",
+    product: "Hoodie (Orange)",
     price: "60.00",
     modelImg: "",
     nav: "/store/otherhoodie-orange",
@@ -59,7 +59,7 @@ export const storeItems = [
   {
     id: 4,
     img: otherHoodieWhite,
-    product: "Other Hoodie (White)",
+    product: "Hoodie (White)",
     price: "60.00",
     modelImg: "",
     nav: "/store/otherhoodie-white",
